@@ -1,4 +1,5 @@
 
+              /*FORMATANDO ESTRUTURAS*/
 
            body{
             color: #696966;
@@ -10,13 +11,65 @@
             font-size: 45px;
         }
 
+        h2, h3, h4, h5, h6{
+            color: #787878;
+            font-weight: normal;
+            margin: 1em 0 1em 0;
+        }
+
+        h2{
+            font-size: 36px;
+        }
+
+        h3{
+            font-size: 30px;
+        }
+
+        h4{
+            font-size: 26px;
+        }
+
+        h5{
+            font-size: 22px;
+        }
+
+        p{
+            font-size: 20px;
+            margin-top: 2em;
+        }
+
         a{
             transition: color .5s linear;
             text-decoration: none;
             border-bottom: 1px dotted;
+            color: #041068;
         }
 
+            sup, sub{
+                font-size: 15px;
+            }
 
+             blockquote{
+                 border-left: 5px solid #efefef;
+                 padding: .5em 0 .5em 1.5em;
+                 
+             }
+
+             code{
+                 background: #f7f7f7;
+                 border-radius: .35em;
+                 border: 2px solid #efefef;
+                 font-size: .9em;
+                 padding: .25em 0.65em;
+                 font-family: 'Courier New', Courier, monospace;
+                 color: #929292;
+             }
+
+            b{
+              color: rgb(12, 12, 12);
+            }
+
+                       /*FORMATANDO O CABEÇALHO*/
    .cabeç{
        position: fixed;
        top: 0;
@@ -38,6 +91,7 @@
        font-weight: normal;
        text-align: right;
        color: rgba(255,255,255, .5);
+       margin: 0 0 1em 0;
    }
 
        
@@ -55,9 +109,7 @@
            color: green;
        }
 
-
-
-
+                        /*FORMATANDO A PARTE QUE ESTA DENTRO DO MAIN*/
                                 .princ{
                                     width: 65%;
                                     margin-left: 35%;
@@ -65,3 +117,34 @@
                                     box-sizing: border-box;
                                 }
 
+
+                         /*FORMATANDO AS LISTAS: */
+                     
+                     ul, ol{
+                        margin-bottom: 0;
+                        padding: 0;
+                        padding-left: 1em;
+                    }
+
+                    li{
+                        padding-left: .5em;
+                    }
+
+
+                    .ulIcon li{
+                        list-style-type: none;
+                        display: inline-block;
+                        font-size: 1.5em;
+                        color: rgb(118, 154, 132);
+                    }     
+
+                   .dir{
+                       position: relative;
+                       left: 570px;
+                       bottom: 260px;
+                   }
+                   
+                   .esq{
+                       margin-top: 144px;
+                   }
+                     
