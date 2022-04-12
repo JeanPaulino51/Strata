@@ -205,6 +205,7 @@
                              display: inline-block;
                              width: 230px;
                              height: 20px;
+                             
                              padding-left: 150px;
                              padding-bottom: 47px;
                              
@@ -223,3 +224,37 @@
                              margin-left: 35px;
                          }
                          
+
+                              /*Formatação das Tabelas*/
+
+
+                              .tab{
+                                  width: 100%;
+                                  margin: 0 0 2em 0;
+                                  border-collapse: collapse;
+                                  text-align: left;  
+                              }
+
+                              .tab td{
+                                  padding: .75em;
+                              }
+
+                              .tab tbody tr:first-child td{
+                                  border-top: 2px solid #665;
+                              }
+
+                              .tab tbody tr:last-child td{
+                                border-bottom: 2px solid #665;
+                            }
+
+                            .tab tbody tr td{
+                                border-bottom: 1px solid #667 ;
+                            }
+
+                            .tab tbody tr:nth-child(even) td{
+                                background-color: rgb(185, 183, 188);
+                            }
+
+                            .tabela2 tbody td{
+                                border: 1px solid rgb(1, 1, 16);
+                            }
