@@ -51,6 +51,15 @@
             border-bottom: #041068 2px solid;
         }
 
+            input, label, textarea{
+                display: inline-block;
+                width: 100%;
+                box-sizing: border-box;
+                
+            }
+
+
+
          
 
             sup, sub{
@@ -121,7 +130,41 @@
            color: green;
        }
 
-                        /*FORMATANDO A PARTE QUE ESTA DENTRO DO MAIN*/
+
+               /*ESTILIZANDO O GET IN TOUCH*/
+
+               .row{
+                   overflow: auto;
+               }
+
+               .col2-3{
+                   width: 55%;
+                   float: left;
+               }
+
+               .col1-3{
+                   width: 32%;
+                   float: right;
+                   margin-bottom: 7%;
+                   
+               }
+
+               .col2{
+                   margin-top: 19px;
+                   width: 49%;
+                   float: left;
+               }
+
+               .col2:first-child{
+                   margin-right: 1%;
+               }
+
+               .col2:last-child{
+                margin-right: 1%;
+            }
+
+            
+                       /*FORMATANDO A PARTE QUE ESTA DENTRO DO MAIN*/
                                 .princ{
                                     width: 65%;
                                     margin-left: 35%;
@@ -231,7 +274,7 @@
                               .tab{
                                   width: 100%;
                                   margin: 0 0 2em 0;
-                                  border-collapse: collapse;
+                                  border-collapse:collapse;
                                   text-align: left;  
                               }
 
