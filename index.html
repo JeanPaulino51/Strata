@@ -337,10 +337,10 @@
 
                           <form action="#" method="get"></form>
                           <label for="nome"> Informe seu nome: </label>
-                          <input type="text" placeholder="Informe seu nome" name="nome" id="nome">
- 
+                          <input type="text" class="campoNome" placeholder="Informe seu nome" name="nome" id="nome">
+                                             
                           <label for="email"> Informe seu Email: </label>
-                          <input type="email" placeholder="Informe seu EMAIL" name="email" id="email">
+                          <input type="email" class="campoEmail" placeholder="Informe seu EMAIL" name="email" id="email">
 
                           <label for="categoria"> Selecione a categoria desejada: </label>
                             <select name="estado" id="estado">
@@ -352,10 +352,12 @@
                            </select>
 
                                     <h4>Informe o Sexo:</h4>
-                                    <input type="radio" name="sexo">
-                                    <label for="masc"> Masculino</label>
-                                    <input type="radio" name="sexo">
-                                    <label for="fem"> Feminino</label>
+                                
+                                    <label > <input type="radio" value="masc" name="sexo"> Masculino
+                                    </label>
+
+                                    <label > <input type="radio" value="feminino" name="sexo"> Feminino
+                                    </label>
 
                                     <h4>Informações adicionais:</h4>
                                     <textarea name="observ" placeholder="Digite informações complementares" id="obs" cols="100" rows="10"></textarea>
