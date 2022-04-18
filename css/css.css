@@ -58,7 +58,12 @@
                 
             }
 
+            img{
+               max-width: 97%;
+                border: 0;
+            }
 
+            
 
          
 
@@ -130,6 +135,21 @@
            color: green;
        }
 
+       
+
+
+       /*IMAGENS*/
+
+       .ladoEsquerdo{
+           width: 50%;
+           float: left;
+       }
+
+       .ladoDireito{
+           width: 50%;
+           float: right;
+       }
+       
 
                /*ESTILIZANDO O GET IN TOUCH*/
 
@@ -327,3 +347,13 @@
                        width: 100%;
                        height: 40px;
                    }
+
+                     /*Direita e Esquerda*/
+
+                     .right{
+                         float: left;
+                     }
+
+                     .left{
+                         float: right;
+                     }
