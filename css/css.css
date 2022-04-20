@@ -45,11 +45,26 @@
             color: #041068;
         }
 
-        .links{
-            background-color:white;
-            color: #041068;
-            border-bottom: #041068 2px solid;
+        .linkMain{
+            display: inline-block;
+            width: 160px;
+            height: 50px;
+            padding-top: 25px;
+            background-color: white;
+            color: #787878;
+            border: #787878 2px solid;
+            text-align: center;
+            transition: all .5s;
         }
+
+        .linkMain:hover{
+              color: #49bf9d;
+              border-color: #49bf9d;
+              background-color: #efefef;
+              color: red;
+        }
+
+        
 
             input, label, textarea{
                 display: inline-block;
@@ -252,6 +267,13 @@
                              color: inherit;
                              display: inline-block;
                              margin-left: 100px;
+                             transition: all .5s;
+                         }
+
+                         .default-strong:hover{
+                             color:#49bf9d;
+                             border-color:#49bf9d ;
+                             
                          }
 
                          .buttom-small{
@@ -266,6 +288,12 @@
                              color: inherit;
                              display: inline-block;
                              margin-left: 120px;
+                             transition: all .5s;
+                         }
+
+                         .small-strong:hover{
+                            color:#49bf9d;
+                            border-color:#49bf9d ;
                          }
 
                          .button-fullScreen{
@@ -273,7 +301,6 @@
                              display: inline-block;
                              width: 230px;
                              height: 20px;
-                             
                              padding-left: 150px;
                              padding-bottom: 47px;
                              
@@ -290,6 +317,12 @@
                              padding-left: 150px;
                              padding-bottom: 47px;
                              margin-left: 35px;
+                             transition: all .5s;
+                         }
+
+                         .fullScreen:hover{
+                             border-color:#49bf9d ;
+                             color: #49bf9d;
                          }
                          
 
@@ -394,3 +427,19 @@
                      .left{
                          float: right;
                      }
+
+                                   /*PERSONALIZANDO O FOOTER */
+
+
+                                   
+                                   footer{
+                                       position: fixed;
+                                       bottom: 100px;
+                                       width: 35%;
+                                       left: 260px;
+                                   }
+
+                                   .linkFooter{
+                                       color: #49bf9d;
+                                       list-style-type: none;
+                                   }
